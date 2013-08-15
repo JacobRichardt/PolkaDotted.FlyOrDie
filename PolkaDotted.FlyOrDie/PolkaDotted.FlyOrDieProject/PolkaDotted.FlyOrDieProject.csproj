@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="CreatureBehavior.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Level.cs" />
     <Compile Include="MyScene.cs" />
+    <Compile Include="Wall.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,10 +1,5 @@
-#region Using Statements
-using System;
 using WaveEngine.Common;
-using WaveEngine.Common.Graphics;
-using WaveEngine.Framework;
 using WaveEngine.Framework.Services;
-#endregion
 
 namespace PolkaDotted.FlyOrDieProject
 {
@@ -14,7 +9,7 @@ namespace PolkaDotted.FlyOrDieProject
 		{
 			base.Initialize(adapter);
 
-			ScreenLayers screenLayers = WaveServices.ScreenLayers;
+			var screenLayers = WaveServices.ScreenLayers;
 			screenLayers.AddScene<MyScene>();
 			screenLayers.Apply();
 		}

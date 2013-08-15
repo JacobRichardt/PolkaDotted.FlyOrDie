@@ -1,7 +1,4 @@
 using System;
-using System.Diagnostics;
-using System.Windows.Forms;
-using WaveEngine.Adapter;
 
 namespace PolkaDotted.FlyOrDie
 {
@@ -10,7 +7,7 @@ namespace PolkaDotted.FlyOrDie
 		[STAThread]
 		static void Main()
 		{
-			using (App game = new App())
+			using (var game = new App())
 			{
 				game.Run();
 			}
