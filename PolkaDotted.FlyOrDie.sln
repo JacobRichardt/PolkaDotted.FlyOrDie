@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolkaDotted.FlyOrDie", "PolkaDotted.FlyOrDie\PolkaDotted.FlyOrDie\PolkaDotted.FlyOrDie.csproj", "{B6421DAE-08C1-4D4E-98F8-89E96A0566A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolkaDotted.FlyOrDieProject", "PolkaDotted.FlyOrDie\PolkaDotted.FlyOrDieProject\PolkaDotted.FlyOrDieProject.csproj", "{C7E72980-B4FA-4453-AC3D-E43AB70512F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6421DAE-08C1-4D4E-98F8-89E96A0566A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6421DAE-08C1-4D4E-98F8-89E96A0566A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6421DAE-08C1-4D4E-98F8-89E96A0566A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6421DAE-08C1-4D4E-98F8-89E96A0566A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E72980-B4FA-4453-AC3D-E43AB70512F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E72980-B4FA-4453-AC3D-E43AB70512F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E72980-B4FA-4453-AC3D-E43AB70512F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E72980-B4FA-4453-AC3D-E43AB70512F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
