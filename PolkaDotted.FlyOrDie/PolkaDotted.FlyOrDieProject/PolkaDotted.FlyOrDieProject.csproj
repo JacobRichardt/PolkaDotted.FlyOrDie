@@ -45,12 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creature.cs" />
     <Compile Include="CreatureBehavior.cs" />
+    <Compile Include="CreatureBehaviors\AlwaysBehavior.cs" />
+    <Compile Include="CreatureBehaviors\IBehaviorAction.cs" />
+    <Compile Include="CreatureBehaviors\IBehaviorGroup.cs" />
+    <Compile Include="CreatureBehaviors\RandomMovementAction.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Level.cs" />
+    <Compile Include="Marker.cs" />
     <Compile Include="MyScene.cs" />
     <Compile Include="Wall.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

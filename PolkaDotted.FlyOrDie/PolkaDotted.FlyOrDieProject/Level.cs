@@ -21,6 +21,9 @@ namespace PolkaDotted.FlyOrDieProject
 		private const int MinObstaclesLength = 2;
 		private const int MaxObstaclesLenght = 20;
 
+		public Vector2 StartPosition { get; private set; }
+		public Vector2 EndPosition { get; private set; }
+
 		public Level(float size)
 		{
 			_size = size;
@@ -40,6 +43,12 @@ namespace PolkaDotted.FlyOrDieProject
 			AddWall(0, Size / 2, Size, (float)Math.PI / 2);
 
 			AddObsticles();
+
+			StartPosition = new Vector2(-Size / 2 + 5, Size / 2 - 5);
+			EndPosition = new Vector2(Size / 2 - 5, -Size / 2 + 5);
+
+			Entity.AddChild(new Marker(StartPosition).Entity);
+			Entity.AddChild(new Marker(EndPosition).Entity);
 		}
 
 		private void AddWall(float x, float y, float size, float rotation)
